@@ -5,6 +5,5 @@
 .nav {
   display: flex;
   justify-content: space-between;
-  width: calc(100% - 10rem);
   min-height: 6.25rem;
 }

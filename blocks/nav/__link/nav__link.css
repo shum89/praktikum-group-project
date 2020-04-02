@@ -1,0 +1,32 @@
+.nav__link {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 0.75rem;
+  line-height: 1.125rem;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.nav__link:after {
+  display: block;
+  bottom: 5;
+  left: 0;
+  height: 5px;
+  background-color: #E8C300;
+  right: 0;
+  margin: 0 auto;
+  border-radius: 3.125rem;
+  content: "";
+  position: absolute;
+  pointer-events: none;
+  opacity: 0;
+  transition: ease opacity 0.3s;
+}
+
+.nav__link:hover:after {
+  opacity: 1;
+}

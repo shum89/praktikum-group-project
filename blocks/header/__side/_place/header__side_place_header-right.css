@@ -1,4 +1,5 @@
 .header__side_place_header-right {
   grid-area: side-right;
   border-left: 1px solid rgba(255, 255, 255, 0.2);
+  justify-content: flex-end;
 }

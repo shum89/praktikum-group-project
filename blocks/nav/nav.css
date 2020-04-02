@@ -1,0 +1,10 @@
+@import url(./__side/nav__side.css);
+@import url(./__side-item/nav__side-item.css);
+@import url(./__paragraph/nav__paragraph.css);
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  width: calc(100% - 10rem);
+  min-height: 6.25rem;
+}

@@ -1,0 +1,43 @@
+.contact__forms {
+  padding: 50px 0 0 0;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(6, minmax(min-content, 210px));
+  grid-template-rows: repeat(4, 1fr);
+  grid-column-gap: 11px;
+  grid-row-gap: 10px;
+  grid-template-areas:
+    "name name email email phone phone"
+    "message message message message message message"
+    "message message message message message message"
+    "info info info button button button";
+  justify-content: center;
+}
+
+@media screen and (max-width: 1000px) {
+  .contact__forms {
+  grid-template-rows: repeat(6, 1fr);
+  grid-template-areas:
+  "name name name name name name"
+  "email email email phone phone phone"
+  "message message message message message message"
+  "message message message message message message"
+  "button button button button button button"
+  "info info info info info info";
+  }
+}
+
+
+@media screen and (max-width: 770px) {
+  .contact__forms {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .contact__forms {
+    display: flex;
+    flex-direction: column;
+  }
+}

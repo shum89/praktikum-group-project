@@ -32,10 +32,24 @@
     0 0 100px rgba(0, 0, 0, 0.2);
 }
 
+
+
 @media screen and (max-width: 1360px) {
   .about-us__image-container::after {
     border: 15px solid #E8C300;
     width: 200px;
     height: 200px;
+  }
+}
+
+@media screen and (max-width: 1220px) {
+  .about-us__image-container {
+    justify-self: center;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .about-us__image-container::after {
+    content: none;
   }
 }

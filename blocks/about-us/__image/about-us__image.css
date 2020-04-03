@@ -18,3 +18,9 @@
     margin-right: 110px;
   }
 }
+
+@media screen and (max-width: 640px) {
+  .about-us__image {
+    margin-right: 0;
+  }
+}

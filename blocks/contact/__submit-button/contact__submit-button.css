@@ -1,0 +1,22 @@
+.contact__submit-button {
+  grid-area: button;
+  background-color: #e8c300;
+  width: 100%;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  text-transform: uppercase;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.contact__submit-button:hover {
+  background-color: #b59800;
+  transition: 0.4s;
+}
+
+@media screen and (max-width: 770px) {
+  .contact__submit-button {
+   height: 60px;
+   margin-top: 20px;
+  }

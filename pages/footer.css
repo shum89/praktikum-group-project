@@ -1,5 +1,6 @@
 @import url(../vendor/normalize.css);
 @import url(../fonts/fonts.css);
+
 .page {
   max-width: 1440px;
   margin: 0 auto;
@@ -12,34 +13,39 @@
   -moz-text-size-adjust: 100%;
 }
 
-.gallery {
-  display: flex;
-  flex-direction: row;
-  padding-top: 87px;
-}
-
-.photo {
-  width: 360px;
-  height: 360px;
-}
 
 .content-title {
-  font-family: "Banny";
-  margin: 0 auto;
-  font-size: 36px;
-  line-height: 48px;
-  min-height: 56px;
+  align-items: center;
   text-align: center;
+  font-style: normal;
+  font-weight: normal;
   text-transform: uppercase;
-  padding-top: 100px;
+  margin: 0 auto;
+  max-width: 62.375rem;
+  padding: 1.875rem 0;
+  position: relative;
 }
 
-.title-break {
+.content-title_minor{
+  font-family: 'Banny';
+  font-size: 36px;
+  line-height: 48px;
+  color: black;
+  padding: 100px 0 20px 0;
+}
+
+.content-title::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 3.75rem;
+  height: 0.3125rem;
+  background-color: #E8C300;
   margin: 0 auto;
-  width: 61px;
-  height: 5px;
-  background-color: #e8c300;
-  border-radius: 5px;
+  display: block;
+  border-radius: 3.125rem;
 }
 
 .content-subtitle {
@@ -53,15 +59,9 @@
   text-align: center;
   max-width: 565px;
   margin: 0 auto;
-  padding-bottom: 50px;
+  padding: 15px 0 50px 0;
 }
 
-.content-block {
-  margin-top: 100px;
-  display: grid;
-  grid-template-rows: repeat (3, 50px);
-  grid-row-gap: 20px;
-}
 
 .contact__forms {
   margin: 0 auto;

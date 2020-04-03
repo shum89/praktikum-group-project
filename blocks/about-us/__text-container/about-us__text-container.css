@@ -1,0 +1,8 @@
+.about-us__text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 600px;
+    align-items: center;
+}
+

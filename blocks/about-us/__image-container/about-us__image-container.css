@@ -1,0 +1,41 @@
+/*.about-us__image-container {
+  background-image: url(../img/group.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  max-width: 475px;
+  width: 100%;
+  padding-bottom: 475px;
+
+}*/
+
+.about-us__image-container {
+  display: flex;
+  position: relative;
+}
+
+.about-us__image-container::after {
+  content: "";
+  position: absolute;
+  top: 23%;
+  left: 58%;
+  width: 250px;
+  height: 250px;
+  background-color: transparent;
+  box-sizing: border-box;
+  margin: 0 auto;
+  display: block;
+  border-radius: 5px;
+  border: 20px solid #E8C300;
+  box-shadow:
+    inset 0 0 100px rgba(0, 0, 0, 0.2),
+    0 0 100px rgba(0, 0, 0, 0.2);
+}
+
+@media screen and (max-width: 1360px) {
+  .about-us__image-container::after {
+    border: 15px solid #E8C300;
+    width: 200px;
+    height: 200px;
+  }
+}

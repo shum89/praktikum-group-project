@@ -1,0 +1,8 @@
+.menu__head {
+    max-width: 840px;
+    display: grid;
+    grid-template-columns: repeat(7, minmax(14.3%, 7.5rem));
+    list-style: none;
+    margin-bottom: 50px;
+    padding: 0;
+}

@@ -3,3 +3,9 @@
   margin-top: 1.875rem;
   margin-bottom: 5.125rem;
 }
+
+@media screen and (max-width: 850px) {
+  .header__buttons {
+    margin-bottom: 2.125rem;
+  }
+}

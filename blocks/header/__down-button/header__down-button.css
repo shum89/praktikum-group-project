@@ -20,3 +20,9 @@
 .header__down-button:hover .header__down-button-item {
   background-color: rgba(232, 195, 0, 1);
 }
+
+@media screen and (max-width: 850px) {
+  .header__down-button {
+    margin-bottom: 1rem;
+  }
+}

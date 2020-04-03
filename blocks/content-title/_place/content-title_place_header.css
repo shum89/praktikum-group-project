@@ -1,0 +1,21 @@
+.content-title_place_header {
+  position: relative;
+  margin: 0;
+  color: #ffffff;
+  max-width: 62.375rem;
+  padding: 1.875rem 0;
+  font-size: 6rem;
+  line-height: 5.1rem;
+}
+
+@media screen and (max-width: 1410px) {
+  .content-title_place_header {
+  font-size: 4rem;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .content-title_place_header {
+  font-size: 3rem;
+  }
+}

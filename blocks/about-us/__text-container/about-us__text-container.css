@@ -1,0 +1,7 @@
+.about-us__text-container {
+    margin-right: 80px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+

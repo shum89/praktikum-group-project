@@ -1,0 +1,15 @@
+@import url(./__image-container/about-us__image-container.css);
+@import url(./__rectangle/about-us__rectangle.css);
+@import url(./__image/about-us__image.css);
+@import url(./__square/about-us__square.css);
+@import url(./__text-container/about-us__text-container.css);
+
+.about-us {
+    max-width: 1280px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 180px;
+    margin-top: 100px;
+
+}

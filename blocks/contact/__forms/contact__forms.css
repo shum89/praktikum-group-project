@@ -1,0 +1,31 @@
+.contact__forms {
+    padding: 50px 0 175px 0;
+    display: grid;
+    grid-template-columns: repeat(6, 210px);
+    grid-template-rows: repeat(4, 60px);
+    grid-column-gap: 11px;
+    grid-row-gap: 10px;
+    grid-template-areas:
+      "name name email email phone phone"
+      "message message message message message message"
+      "message message message message message message"
+      ". . . button button button";
+    justify-content: center;
+  }
+
+
+  @media screen and (max-width: 770px) {
+    .contact__forms {
+     display: flex;
+     flex-direction: column;
+     width: 720px;
+     margin: 0 auto;
+    }
+
+    @media screen and (max-width: 400px) {
+      .contact__forms {
+       display: flex;
+       flex-direction: column;
+       width: 320px;
+       margin: 0 auto;
+      }

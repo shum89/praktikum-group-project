@@ -3,6 +3,7 @@
 @import url(./__head-item/menu__head-item.css);
 @import url(./__head/menu__head.css);
 @import url(./__main-item/menu__main-item.css);
+@import url(./__dots/menu__dots.css);
 @import url(./__item-description/menu__item-description.css);
 
 .menu {
@@ -12,8 +13,3 @@
   padding: 100px 0;
 }
 
-@media screen and (max-width: 640px) {
-  .menu {
-    display: none;
-  }
-}

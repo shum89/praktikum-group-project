@@ -6,3 +6,10 @@
     color: #333333;
     margin: 0;
 }
+
+@media screen and (max-width:640px)  {
+    .menu__main-item {
+        display: flex;
+        flex-direction: column;
+    }
+}

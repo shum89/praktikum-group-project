@@ -5,3 +5,9 @@
     font-size: 12px;
     line-height: 11px;
 }
+
+@media screen and (max-width:854px)  {
+    .menu__item-description {
+        margin-top: 5px;
+    }
+}

@@ -1,13 +1,13 @@
 .menu__item-description {
-    font-family: "Open Sans";
-    font-weight: 900;
-    color: #E5E5E5;
-    font-size: 12px;
-    line-height: 11px;
+  font-family: "Open Sans";
+  font-weight: 900;
+  color: #E5E5E5;
+  font-size: 0.75rem;
+  line-height: 0.6875rem;
 }
 
-@media screen and (max-width:854px)  {
-    .menu__item-description {
-        margin-top: 5px;
-    }
+@media screen and (max-width:854px) {
+  .menu__item-description {
+    margin-top: 0.3125rem;
+  }
 }

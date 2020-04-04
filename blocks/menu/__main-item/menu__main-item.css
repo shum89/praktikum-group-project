@@ -1,16 +1,16 @@
 .menu__main-item {
-    max-width: 363px;
-    font-family: "Banny";
-    font-size: 18px;
-    line-height: 18px;
-    color: #333333;
-    margin: 0;
+  max-width: 22.6875rem;
+  font-family: "Banny";
+  font-size: 1.125rem;
+  line-height: 1.125rem;
+  color: #333333;
+  margin: 0;
 }
 
-@media screen and (max-width:854px)  {
-    .menu__main-item {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-    }
+@media screen and (max-width:854px) {
+  .menu__main-item {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
 }

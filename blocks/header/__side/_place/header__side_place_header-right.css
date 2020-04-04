@@ -1,14 +1,14 @@
 .header__side_place_header-right {
   grid-area: side-right;
-  border-left: 1px solid rgba(255, 255, 255, 0.2);
+  border-left: 0.0625rem solid rgba(255, 255, 255, 0.2);
   justify-content: flex-end;
 }
 
 @media screen and (max-width: 850px) {
   .header__side_place_header-right {
-    margin-top: 20px;
-    padding: 20px;
-    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    margin-top: 1.25rem;
+    padding: 1.25rem;
+    border-top: 0.0625rem solid rgba(255, 255, 255, 0.2);
     border-left: none;
     justify-content: center;
   }

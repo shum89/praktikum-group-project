@@ -1,9 +1,9 @@
 .menu__head {
-    max-width: 840px;
-    display: grid;
-    grid-template-columns: repeat(7, minmax(14.3%, 7.5rem));
-    list-style: none;
-    margin-bottom: 50px;
-    padding: 0;
-    margin-top: 34px;
+  max-width: 52.5rem;
+  display: grid;
+  grid-template-columns: repeat(7, minmax(14.3%, 7.5rem));
+  list-style: none;
+  margin-bottom: 3.125rem;
+  padding: 0;
+  margin-top: 2.125rem;
 }

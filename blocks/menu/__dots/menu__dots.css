@@ -1,9 +1,7 @@
-.menu__dots {
-    
-}
+.menu__dots {}
 
 @media screen and (max-width: 854px) {
-   .menu__dots {
-       margin-bottom: 10px;
-   }
+  .menu__dots {
+    margin-bottom: 0.625rem;
+  }
 }

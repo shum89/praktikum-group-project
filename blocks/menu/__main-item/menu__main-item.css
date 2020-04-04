@@ -5,12 +5,12 @@
     line-height: 18px;
     color: #333333;
     margin: 0;
-    text-align: center;
 }
 
 @media screen and (max-width:854px)  {
     .menu__main-item {
         display: flex;
         flex-direction: column;
+        text-align: center;
     }
 }

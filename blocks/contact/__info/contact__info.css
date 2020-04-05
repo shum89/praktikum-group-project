@@ -5,6 +5,13 @@
   justify-content: space-between;
 }
 
+@media screen and (max-width: 1200px) {
+  .contact__info {
+    flex-direction: column;
+    margin: 0 auto;
+  }
+}
+
 @media screen and (max-width: 770px) {
   .contact__info {
     flex-direction: column;

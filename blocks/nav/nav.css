@@ -9,6 +9,13 @@
   min-height: 6.25rem;
 }
 
+@media screen and (min-width: 1920px) {
+  .nav {
+    justify-content: space-around;
+    max-width: 1920px;
+  }
+}
+
 @media screen and (max-width: 850px) {
   .nav {
     min-height: 3.25rem;

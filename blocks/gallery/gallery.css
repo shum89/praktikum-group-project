@@ -12,16 +12,20 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-    width: 100%;
   }
 }
 
-
-@media screen and (max-width: 370px) {
+@media screen and (max-width: 680px) {
   .gallery {
-    display: grid;
-    grid-template-rows: repeat(auto-fill, 1fr);
-    grid-template-columns: 1fr;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: calc(100% + 10rem);
     justify-content: center;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .gallery {
+    width: calc(100% + 4rem);
   }
 }

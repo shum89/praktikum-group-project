@@ -9,3 +9,8 @@
     margin-bottom: 2.125rem;
   }
 }
+@media screen and (max-width: 450px) {
+  .header__buttons {
+    margin-bottom: 1rem;
+  }
+}

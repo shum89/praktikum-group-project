@@ -22,3 +22,10 @@
     margin-right: 0;
   }
 }
+
+@media screen and (max-width: 520px) {
+  .about-us__image {
+    max-width: 15rem;
+    min-height: 15rem;
+  }
+}

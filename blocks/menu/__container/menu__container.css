@@ -7,3 +7,10 @@
   margin: 0;
   padding: 0;
 }
+
+@media screen and (max-width: 620px) {
+  .menu__container {
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 3.25rem;
+  }
+}

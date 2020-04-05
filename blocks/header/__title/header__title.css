@@ -39,3 +39,10 @@
     font-size: 3rem;
   }
 }
+
+@media screen and (max-width: 450px) {
+  .header__title {
+    font-size: 1.5rem;
+    padding: 0 0;
+  }
+}

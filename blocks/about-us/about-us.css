@@ -18,3 +18,9 @@
     grid-template-columns: 1fr;
   }
 }
+
+@media screen and (max-width: 520px) {
+  .about-us {
+    padding: 3rem 0;
+  }
+}

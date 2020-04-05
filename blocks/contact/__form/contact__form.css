@@ -9,6 +9,7 @@
   font-family: inherit;
   box-sizing: border-box;
   min-height: 3.75rem;
+  margin-top: 0.5rem;
 }
 
 .contact__form::placeholder {

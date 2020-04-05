@@ -7,4 +7,19 @@
   line-height: 0.875rem;
   margin: 0;
   color: #ffffff;
+  transition: .3s;
+}
+
+@media screen and (max-width: 560px) {
+  .header__subtitle {
+    margin-top: 4rem;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .header__subtitle {
+    font-size: 0.45rem;
+    line-height: 0.675rem;
+    margin-top: 2rem;
+  }
 }

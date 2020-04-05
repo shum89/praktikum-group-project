@@ -5,12 +5,12 @@
   font-weight: normal;
   text-transform: uppercase;
   position: relative;
-  font-family: "Banny";
   font-size: 2.25rem;
   line-height: 3rem;
   color: black;
   margin: 0;
   padding-bottom: 1rem;
+  transition: .3s;
 }
 
 .content-title::after {
@@ -25,4 +25,11 @@
   margin: 0 auto;
   display: block;
   border-radius: 3.125rem;
+}
+
+@media screen and (max-width: 520px) {
+  .content-title {
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+  }
 }

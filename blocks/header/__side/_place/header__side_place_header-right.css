@@ -13,3 +13,10 @@
     justify-content: center;
   }
 }
+
+@media screen and (max-width: 450px) {
+  .header__side_place_header-right {
+    margin-top: 0;
+    padding: 1rem 0 0 0;
+  }
+}

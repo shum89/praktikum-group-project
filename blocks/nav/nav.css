@@ -14,3 +14,9 @@
     min-height: 3.25rem;
   }
 }
+
+@media screen and (max-width: 560px) {
+  .nav {
+    flex-wrap: wrap;
+  }
+}

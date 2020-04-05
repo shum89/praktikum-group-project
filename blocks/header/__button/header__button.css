@@ -26,3 +26,17 @@
   background-color: rgba(232, 195, 0, 1);
   border: 0.0625rem solid transparent;
 }
+
+@media screen and (max-width: 560px) {
+  .header__button {
+    width: 8rem;
+    height: 2.75rem;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .header__button {
+    width: 6rem;
+    height: 2.75rem;
+  }
+}

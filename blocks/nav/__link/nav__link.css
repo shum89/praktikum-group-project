@@ -9,6 +9,7 @@
   text-decoration: none;
   box-sizing: border-box;
   position: relative;
+  transition: .2s;
 }
 
 .nav__link:after {
@@ -27,8 +28,14 @@
   transition: ease opacity 0.3s;
 }
 
-.nav__link:hover:after {
+.nav__link:active:after {
   opacity: 1;
+}
+
+@media screen and (pointer: fine) {
+  .nav__link:hover:after {
+    opacity: 1;
+  }
 }
 
 @media screen and (max-width: 850px) {

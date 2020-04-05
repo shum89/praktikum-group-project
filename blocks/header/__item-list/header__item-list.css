@@ -12,13 +12,20 @@
   transition: .5s;
 }
 
+.header__item-list:active {
+  background-color: rgba(232, 195, 0, 1);
+  border: 0.0625rem solid transparent;
+}
+
 .header__item-list:last-child {
   margin: 0;
 }
 
-.header__item-list:hover {
-  background-color: rgba(232, 195, 0, 1);
-  border: 0.0625rem solid transparent;
+@media screen and (pointer: fine) {
+  .header__item-list:hover {
+    background-color: rgba(232, 195, 0, 1);
+    border: 0.0625rem solid transparent;
+  }
 }
 
 @media screen and (max-width: 850px) {

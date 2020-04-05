@@ -19,13 +19,20 @@
   outline: none;
 }
 
+.header__button:active {
+  background-color: rgba(232, 195, 0, 1);
+  border: 0.0625rem solid transparent;
+}
+
 .header__button:last-child {
   margin: 0;
 }
 
-.header__button:hover {
-  background-color: rgba(232, 195, 0, 1);
-  border: 0.0625rem solid transparent;
+@media screen and (pointer: fine) {
+  .header__button:hover {
+    background-color: rgba(232, 195, 0, 1);
+    border: 0.0625rem solid transparent;
+  }
 }
 
 @media screen and (max-width: 560px) {

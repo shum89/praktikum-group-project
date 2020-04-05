@@ -9,10 +9,17 @@
   font-size: 0.75rem;
   cursor: pointer;
   transition: 0.3s;
+  outline: none;
 }
 
-.contact__submit-button:hover {
+.contact__submit-button:active {
   background-color: #b59800;
+}
+
+@media screen and (pointer: fine) {
+  .contact__submit-button:hover {
+    background-color: #b59800;
+  }
 }
 
 @media screen and (max-width: 770px) {

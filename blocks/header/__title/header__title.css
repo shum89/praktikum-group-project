@@ -26,6 +26,7 @@
   margin: 0 auto;
   display: block;
   border-radius: 3.125rem;
+  z-index: 1;
 }
 
 @media screen and (max-width: 1410px) {

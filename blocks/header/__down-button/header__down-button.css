@@ -10,6 +10,29 @@
   background-color: rgba(0, 0, 0, 0);
   transition: .5s;
   margin-bottom: 5.125rem;
+  position: relative;
+}
+
+.header__down-button::after {
+  content: "";
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.3);
+  width: 28.375rem;
+  height: 0.03125rem;
+  bottom: 17.8125rem;
+  right: -12.4375rem;
+  transform: rotate(90deg);
+}
+
+.header__down-button::before {
+  content: "";
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.3);
+  width: 5.125rem;
+  height: 0.03125rem;
+  bottom: -2.625rem;
+  left: -0.6875rem;
+  transform: rotate(90deg);
 }
 
 .header__down-button:hover {
@@ -24,5 +47,13 @@
 @media screen and (max-width: 850px) {
   .header__down-button {
     margin-bottom: 1rem;
+  }
+
+  .header__down-button::after {
+    display: none;
+  }
+
+  .header__down-button::before {
+    display: none;
   }
 }

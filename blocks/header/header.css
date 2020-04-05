@@ -39,8 +39,8 @@
   .header {
     grid-template-columns: 1fr 1fr 4fr 1fr 1fr;
     grid-template-areas:
-    '. nav nav nav .'
-    '. side-left main side-right .';
+      '. nav nav nav .'
+      '. side-left main side-right .';
   }
 }
 

@@ -7,9 +7,11 @@
   line-height: 1.125rem;
   color: #333333;
   margin: 0;
+  display: flex;
+  flex-wrap: wrap;
 }
 
-@media screen and (max-width:854px) {
+@media screen and (max-width:1105px) {
   .menu__main-item {
     display: flex;
     flex-direction: column;

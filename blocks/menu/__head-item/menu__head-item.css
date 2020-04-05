@@ -23,3 +23,9 @@
 .menu__head-item:last-of-type {
   border: none;
 }
+
+@media screen and (max-width: 450px) {
+  .menu__head-item {
+    font-size: 0.45rem;
+  }
+}

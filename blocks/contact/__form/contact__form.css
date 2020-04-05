@@ -4,10 +4,11 @@
   box-sizing: border-box;
   background-color: #e5e5e5;
   border-radius: 0.3125rem;
-  margin-top: 0.3125rem;
   padding: 0.75rem 1.25rem;
   font-size: 0.875rem;
   font-family: inherit;
+  box-sizing: border-box;
+  min-height: 3.75rem;
 }
 
 .contact__form::placeholder {

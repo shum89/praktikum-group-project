@@ -2,7 +2,7 @@
   max-width: 29.6875rem;
   object-fit: cover;
   object-position: center;
-  min-height: 29.6875rem;
+  height: 29.6875rem;
   box-shadow: 0 0 3.125rem rgba(0, 0, 0, 0.5);
   border-radius: 0.3125rem;
   margin-right: 7.8125rem;
@@ -11,7 +11,7 @@
 
 @media screen and (max-width: 1360px) {
   .about-us__image {
-    min-height: 25rem;
+    height: 25rem;
     max-width: 25rem;
     margin-right: 6.875rem;
   }
@@ -26,6 +26,6 @@
 @media screen and (max-width: 520px) {
   .about-us__image {
     max-width: 15rem;
-    min-height: 15rem;
+    height: 15rem;
   }
 }

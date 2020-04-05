@@ -16,6 +16,7 @@
   line-height: 1.25rem;
   color: #ffffff;
   transition: .5s;
+  outline: none;
 }
 
 .header__button:last-child {

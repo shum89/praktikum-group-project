@@ -64,7 +64,3 @@
     min-height: auto;
   }
 }
-
-@media screen and (max-width: 560px) {
-  .header {}
-}

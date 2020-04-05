@@ -13,7 +13,7 @@
 
 .header__down-button-item::after {
   content: '';
-  background-image: url(../img/down.png);
+  background-image: url(./../img/down.png);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;

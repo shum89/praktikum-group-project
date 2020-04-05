@@ -6,8 +6,14 @@
 
 @media screen and (min-width: 2170px) {
   .header__side_place_header-right {
-    justify-content: flex-start;
+    justify-content: center;
     padding-left: 4rem;
+  }
+}
+
+@media screen and (min-width: 1900px) {
+  .header__side_place_header-right {
+    justify-content: center;
   }
 }
 

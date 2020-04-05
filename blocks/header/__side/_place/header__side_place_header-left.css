@@ -12,6 +12,12 @@
   }
 }
 
+@media screen and (min-width: 1900px) {
+  .header__side_place_header-left {
+    justify-content: center;
+  }
+}
+
 @media screen and (max-width: 850px) {
   .header__side_place_header-left {
     margin-top: 1.25rem;

@@ -32,7 +32,7 @@
     '. nav nav nav .'
     '. side-left main side-right .';
   justify-content: center;
-  transition: .2s;
+  transition: .4s;
   z-index: 0;
 }
 

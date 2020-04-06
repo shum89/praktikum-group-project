@@ -1,0 +1,14 @@
+.about-us__text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 37.5rem;
+  align-items: center;
+}
+
+@media screen and (max-width: 1220px) {
+  .about-us__text-container {
+    justify-self: center;
+    padding-bottom: 3.125rem;
+  }
+}

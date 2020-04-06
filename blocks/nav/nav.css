@@ -1,0 +1,29 @@
+@import url(./__side/nav__side.css);
+@import url(./__side-item/nav__side-item.css);
+@import url(./__link/nav__link.css);
+
+.nav {
+  display: flex;
+  max-width: 1440px;
+  justify-content: space-between;
+  min-height: 6.25rem;
+}
+
+@media screen and (min-width: 1920px) {
+  .nav {
+    justify-content: space-around;
+    max-width: 1920px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .nav {
+    min-height: 3.25rem;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .nav {
+    flex-wrap: wrap;
+  }
+}

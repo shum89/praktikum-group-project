@@ -1,0 +1,26 @@
+@import url(./__image-container/about-us__image-container.css);
+@import url(./__image/about-us__image.css);
+@import url(./__text-container/about-us__text-container.css);
+
+.about-us {
+  max-width: 80rem;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(min-content, max-content));
+  grid-template-rows: 1fr;
+  grid-column-gap: 5rem;
+  justify-content: space-between;
+  padding: 6.25rem 0;
+}
+
+@media screen and (max-width: 1220px) {
+  .about-us {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .about-us {
+    padding: 3rem 0;
+  }
+}

@@ -1,0 +1,20 @@
+@import url(./__container/menu__container.css);
+@import url(./__head/menu__head.css);
+@import url(./__head-item/menu__head-item.css);
+@import url(./__head/menu__head.css);
+@import url(./__main-item/menu__main-item.css);
+@import url(./__dots/menu__dots.css);
+@import url(./__item-description/menu__item-description.css);
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 6.25rem 0;
+}
+
+@media screen and (max-width: 520px) {
+  .menu {
+    padding: 3.25rem 0;
+  }
+}

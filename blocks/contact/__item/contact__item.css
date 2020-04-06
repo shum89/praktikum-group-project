@@ -1,0 +1,22 @@
+.contact__item {
+  display: block;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 0.875rem;
+  line-height: 0.875rem;
+  color: rgba(51, 51, 51, 0.5);
+  text-align: center;
+  align-self: center;
+  text-decoration: none;
+}
+
+.contact__item:hover {
+  opacity: 50%;
+  transition: 0.4s;
+}
+
+@media screen and (max-width: 770px) {
+  .contact__item {
+    margin: 1.25rem;
+  }
+}

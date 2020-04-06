@@ -1,0 +1,32 @@
+.header__subtitle {
+  letter-spacing: 0.5em;
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 0.75rem;
+  line-height: 0.875rem;
+  padding-left: 0.6875rem;
+  margin: 0;
+  color: #ffffff;
+  transition: .3s;
+}
+
+@media screen and (max-width: 560px) {
+  .header__subtitle {
+    padding-left: 0;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .header__subtitle {
+    margin-top: 4rem;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .header__subtitle {
+    font-size: 0.45rem;
+    line-height: 0.675rem;
+    margin-top: 2rem;
+  }
+}

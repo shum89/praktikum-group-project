@@ -1,0 +1,9 @@
+.contact__item_number {
+  min-width: 16.25rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .contact__item_number {
+    min-width: 8.25rem;
+  }
+}

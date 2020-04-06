@@ -1,0 +1,31 @@
+.about-us__image {
+  max-width: 29.6875rem;
+  object-fit: cover;
+  object-position: center;
+  height: 29.6875rem;
+  box-shadow: 0 0 3.125rem rgba(0, 0, 0, 0.5);
+  border-radius: 0.3125rem;
+  margin-right: 7.8125rem;
+  transition: .3s;
+}
+
+@media screen and (max-width: 1360px) {
+  .about-us__image {
+    height: 25rem;
+    max-width: 25rem;
+    margin-right: 6.875rem;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .about-us__image {
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .about-us__image {
+    max-width: 15rem;
+    height: 15rem;
+  }
+}

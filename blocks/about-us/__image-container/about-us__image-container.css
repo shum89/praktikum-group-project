@@ -1,0 +1,44 @@
+.about-us__image-container {
+  display: flex;
+  position: relative;
+}
+
+.about-us__image-container::after {
+  content: "";
+  position: absolute;
+  top: 23%;
+  left: 58%;
+  width: 15.625rem;
+  height: 15.625rem;
+  background-color: transparent;
+  box-sizing: border-box;
+  margin: 0 auto;
+  display: block;
+  border-radius: 5px;
+  border: 1.25rem solid #E8C300;
+  box-shadow:
+    inset 0 0 6.25rem rgba(0, 0, 0, 0.2),
+    0 0 6.25rem rgba(0, 0, 0, 0.2);
+}
+
+
+
+@media screen and (max-width: 1360px) {
+  .about-us__image-container::after {
+    border: 0.9375rem solid #E8C300;
+    width: 12.5rem;
+    height: 12.5rem;
+  }
+}
+
+@media screen and (max-width: 1220px) {
+  .about-us__image-container {
+    justify-self: center;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .about-us__image-container::after {
+    content: none;
+  }
+}

@@ -1,0 +1,28 @@
+.header__vector {
+  width: 9.375rem;
+  height: 9.375rem;
+  background-image: url(./../img/Vector.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: -4.6875rem 0 9.375rem;
+  animation: rotation-circle 20s infinite alternate-reverse ease-in-out;
+  transition: .2s;
+}
+
+@media screen and (max-width: 1400px) {
+  .header__vector {
+    margin: 1rem 0 9.375rem;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .header__vector {
+    margin: 1rem 0 4rem;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .header__vector {
+    display: none;
+  }
+}

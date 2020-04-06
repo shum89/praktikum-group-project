@@ -1,0 +1,26 @@
+@import url(./__form/contact__form.css);
+@import url(./__form/_email/contact__form_email.css);
+@import url(./__form/_message/contact__form_message.css);
+@import url(./__form/_name/contact__form_name.css);
+@import url(./__form/_phone/contact__form_phone.css);
+@import url(./__forms/contact__forms.css);
+@import url(./__icon/contact__icon.css);
+@import url(./__info/contact__info.css);
+@import url(./__item/contact__item.css);
+@import url(./__item/_number/contact__item_number.css);
+@import url(./__submit-button/contact__submit-button.css);
+
+.contact {
+  width: calc(100% - 10rem);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 6.25rem 5rem;
+}
+
+@media screen and (max-width: 640px) {
+  .contact {
+    width: calc(100% - 4rem);
+    padding: 3.125rem 2rem;
+  }
+}

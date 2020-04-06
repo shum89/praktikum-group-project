@@ -1,0 +1,55 @@
+.contact__forms {
+  padding: 3.125rem 0 0 0;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(4, 3.75rem);
+  grid-column-gap: 0.6875rem;
+  grid-row-gap: 0.625rem;
+  grid-template-areas:
+    "name name email email phone phone"
+    "message message message message message message"
+    "message message message message message message"
+    "info info info button button button";
+  justify-content: center;
+}
+
+@media screen and (min-width: 1441px) {
+  .contact__forms {
+    grid-template-columns: repeat(6, 13.125rem);
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .contact__forms {
+    grid-template-rows: repeat(6, 3.75rem);
+    grid-template-areas:
+      "name name name name name name"
+      "email email email phone phone phone"
+      "message message message message message message"
+      "message message message message message message"
+      "button button button button button button"
+      "info info info info info info";
+  }
+}
+
+
+@media screen and (max-width: 770px) {
+  .contact__forms {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .contact__forms {
+    padding: 1rem 0 0 0;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .contact__forms {
+    display: flex;
+    flex-direction: column;
+  }
+}

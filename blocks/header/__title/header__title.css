@@ -1,0 +1,49 @@
+.header__title {
+  align-items: center;
+  text-align: center;
+  font-style: normal;
+  font-weight: normal;
+  text-transform: uppercase;
+  transition: .2s;
+  position: relative;
+  margin: 0;
+  color: #ffffff;
+  max-width: 62.375rem;
+  padding: 1.875rem 0;
+  font-size: 6rem;
+  line-height: 5.1rem;
+}
+
+.header__title::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 3.75rem;
+  height: 0.3125rem;
+  background-color: #E8C300;
+  right: 0;
+  margin: 0 auto;
+  display: block;
+  border-radius: 3.125rem;
+  z-index: 1;
+}
+
+@media screen and (max-width: 1410px) {
+  .header__title {
+    font-size: 4rem;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .header__title {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .header__title {
+    font-size: 1.5rem;
+    padding: 0 0;
+  }
+}

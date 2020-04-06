@@ -1,0 +1,29 @@
+.header__schedule {
+  margin: 0;
+  position: relative;
+  transform: rotate(-90deg);
+}
+
+.header__schedule::after {
+  content: 'Mon - Fri: 8PM - 10PM, Sat - Sun: 8PM - 3AM';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 0.75rem;
+  line-height: 0.75rem;
+  color: #ffffff;
+  padding: 0;
+  white-space: nowrap;
+  position: absolute;
+  left: -7.8125rem;
+}
+
+@media screen and (max-width: 850px) {
+  .header__schedule {
+    transform: rotate(0)
+  }
+
+  .header__schedule::after {
+    position: relative;
+    left: 2%;
+  }
+}
